@@ -4,7 +4,7 @@ provider:
 
 functions:
   artist:
-    lang: Dockerfile
+    lang: dockerfile
     handler: ./artist
     image: jmkhael/faas-artist:latest
     environment:
